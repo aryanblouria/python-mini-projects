@@ -41,8 +41,7 @@ def leetify(message):
     return leet
 
 
-stop = False
-while not stop:
+while True:
     original = input("\nEnter the message: ")
     leeted = leetify(original)
     pyperclip.copy(leeted)
